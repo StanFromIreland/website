@@ -1,0 +1,44 @@
+{% extends 'template.html' %}
+
+{% block main %}
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+
+        <h2 class="section__title">My Projects</h2>
+
+        <div class="projects__grid">
+
+          <div class="project">
+            <h3>Personal Website</h3>
+            <p class="project__description">
+              My only <i>real</i> Flask project is this very website! It is most definitely overengineered as it is currently really just a static webpage, however, I hope to develop it into much more!
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Open Source Contributions</h3>
+            <p class="project__description">
+              I am continuously working on miscellaneous GitHub projects!
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">C++</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Python Documentation Translation</h3>
+            <p class="project__description">
+              I am currently working on translating the Python Documentation to Polish. If you happen to know Polish and English, I invite you to join us!
+            </p>
+          </div>
+        </div>
+
+      </section>
+{% endblock %}
